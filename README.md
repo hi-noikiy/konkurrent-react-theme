@@ -10,18 +10,18 @@ Installation
 * Working WordPress Installation
 First, prepare a proper WordPress environment:
 - You will obviously need a working WordPress installation,
-- Set your permlink structure to /%postname%/.
+- Set your permlink structure to '/%postname%/'.
 
 * Theme building 
 Unlike other themes, this one uses a build process. JavaScript is an interpreted language, but we need to take certain steps (like transpiling React JSX syntax or SASS CSS syntax) to take the files from development phase to production. You will need the following tools:
 - node.js and npm - node is an command line JavaScript interpreter that is used for build process. npm stands for node package manager. You can install both from [nodejs.org](https://nodejs.org/en/),
-- [webpack](https://webpack.js.org/) is a build system running on node. Once you install node and npm, type ''' npm install -g webpack ''' to install webpack in your system (''' -g ''' flag installs package globally so you will now have webpack command in your command line).
+- [webpack](https://webpack.js.org/) is a build system running on node. Once you install node and npm, type 'npm install -g webpack' to install webpack in your system ('-g' flag installs package globally so you will now have webpack command in your command line).
 
 ** Next, you have to set up the theme: **
 
-* Download the theme files to ''' wp-content/themes ''' directory of your WordPress installation. You can clone this repository (git clone git@github.com:pratik028/konkurrent-react-theme.git) or just press download on the right side (remember to unzip).
+* Download the theme files to 'wp-content/themes' directory of your WordPress installation. You can clone this repository (git clone git@github.com:pratik028/konkurrent-react-theme.git) or just press download on the right side (remember to unzip).
 * In root directory, run npm install to install the node dependencies. npm will take care of the rest (npm installs dependencies listed in the package.json file).
-* In Picard directory, run ''' webpack ''' to compile the JavaScript and SASS. Webpack will know what to do, because proper actions are listed in the webpack.config.js
+* In Picard directory, run 'webpack' to compile the JavaScript and SASS. Webpack will know what to do, because proper actions are listed in the webpack.config.js
 
 Contributing
 ===
