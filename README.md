@@ -17,7 +17,7 @@ Unlike other themes, this one uses a build process. JavaScript is an interpreted
 - node.js and npm - node is an command line JavaScript interpreter that is used for build process. npm stands for node package manager. You can install both from [nodejs.org](https://nodejs.org/en/),
 - [webpack](https://webpack.js.org/) is a build system running on node. Once you install node and npm, type `npm install -g webpack` to install webpack in your system (`-g` flag installs package globally so you will now have webpack command in your command line).
 
-** Next, you have to set up the theme: **
+**Next, you have to set up the theme:**
 
 * Download the theme files to `wp-content/themes` directory of your WordPress installation. You can clone this repository (git clone git@github.com:pratik028/konkurrent-react-theme.git) or just press download on the right side (remember to unzip).
 * In root directory, run npm install to install the node dependencies. npm will take care of the rest (npm installs dependencies listed in the package.json file).
