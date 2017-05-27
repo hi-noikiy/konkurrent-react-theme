@@ -19,8 +19,8 @@ Unlike other themes, this one uses a build process. JavaScript is an interpreted
 
 **Next, you have to set up the theme:**
 
-* Download the theme files to `wp-content/themes` directory of your WordPress installation. You can clone this repository (git clone git@github.com:pratik028/konkurrent-react-theme.git) or just press download on the right side (remember to unzip).
-* In root directory, run npm install to install the node dependencies. npm will take care of the rest (npm installs dependencies listed in the package.json file).
+* Download the theme files to `wp-content/themes` directory of your WordPress installation. You can clone this repository (`git clone git@github.com:pratik028/konkurrent-react-theme.git`) or just press download on the right side (remember to unzip).
+* In root directory, run `npm install` to install the node dependencies. npm will take care of the rest (npm installs dependencies listed in the package.json file).
 * In Picard directory, run `webpack` to compile the JavaScript and SASS. Webpack will know what to do, because proper actions are listed in the webpack.config.js
 
 Contributing
