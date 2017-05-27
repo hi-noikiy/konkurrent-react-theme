@@ -32,3 +32,7 @@ Todos
 A not exhaustive list of all things theme still needs to do:
 * Work with different permalink structures.
 * Support all permalinks (archives, search etc)
+
+Demo
+===
+[http://konkurrer.com/](http://konkurrer.com/)
